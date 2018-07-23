@@ -27,12 +27,11 @@
     
     <summary type="html">
     
-      &lt;p&gt;Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個注意事項就順手記下來&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;系統環境&lt;/strong&gt;：macOS High Sierra 10.13.6.&lt;br&gt;Hexo v3.7.1 — NexT.Pisces v6.3.0&lt;/p&gt;
-&lt;h2 id=&quot;無法安裝-hexo-npm-WARN-checkPermissions-Missing-write-access-to-usr-local-lib-node-modules-usr-local-lib&quot;&gt;&lt;a href=&quot;#無法安裝-hexo-npm-WARN-checkPermissions-Missing-write-access-to-usr-local-lib-node-modules-usr-local-lib&quot; class=&quot;headerlink&quot; title=&quot;無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/usr/local/lib&quot;&gt;&lt;/a&gt;無法安裝 hexo? &lt;code&gt;npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/usr/local/lib&lt;/code&gt;&lt;/h2&gt;&lt;p&gt;npm 安裝權限問題，在安裝指令前加上 &lt;code&gt;sudo&lt;/code&gt; 提示輸入密碼，輸入後即可安裝。&lt;/p&gt;
-&lt;h2 id=&quot;為什麼語系套用失敗？&quot;&gt;&lt;a href=&quot;#為什麼語系套用失敗？&quot; class=&quot;headerlink&quot; title=&quot;為什麼語系套用失敗？&quot;&gt;&lt;/a&gt;為什麼語系套用失敗？&lt;/h2&gt;&lt;p&gt;安裝上述最新版本，&lt;code&gt;language = zh-TW&lt;/code&gt;，翻了幾篇參考文章大多都是小寫zh-tw，大寫才能套用主題內的正體中文語系檔。&lt;/p&gt;
-&lt;h2 id=&quot;建立tags或categories未能正確產生頁面&quot;&gt;&lt;a href=&quot;#建立tags或categories未能正確產生頁面&quot; class=&quot;headerlink&quot; title=&quot;建立tags或categories未能正確產生頁面&quot;&gt;&lt;/a&gt;建立tags或categories未能正確產生頁面&lt;/h2&gt;&lt;p&gt;建立頁面時，注意雙引號 &lt;code&gt;&amp;quot;categories&amp;quot;&lt;/code&gt; 要打正確，手滑在中文狀態下輸出打成 &lt;code&gt;&amp;quot;categories“&lt;/code&gt;，導致無法正常產生 categories 頁面。&lt;/p&gt;
-&lt;h2 id=&quot;動畫特效為什麼設為-true-還是沒啟用？&quot;&gt;&lt;a href=&quot;#動畫特效為什麼設為-true-還是沒啟用？&quot; class=&quot;headerlink&quot; title=&quot;動畫特效為什麼設為 true 還是沒啟用？&quot;&gt;&lt;/a&gt;動畫特效為什麼設為 true 還是沒啟用？&lt;/h2&gt;&lt;p&gt;啟用動畫特效，記得要把正確的檔案下載到主題資料夾內，啟用主題內功能時，建議要到註解寫的網頁看一眼。&lt;br&gt;&lt;a href=&quot;https://github.com/theme-next/theme-next-canvas-nest&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/theme-next/theme-next-canvas-nest&lt;/a&gt;&lt;/p&gt;
+      
+      
+        &lt;p&gt;Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個注意事項就順手記下來&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;系統環境&lt;/strong&gt;：macOS High Sierra 10.13.6.&lt;br&gt;Hexo v3.7.1 — NexT.Pi
+      
     
     </summary>
     
@@ -58,7 +57,10 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;準備～&quot;&gt;&lt;a href=&quot;#準備～&quot; class=&quot;headerlink&quot; title=&quot;準備～&quot;&gt;&lt;/a&gt;準備～&lt;/h1&gt;
+      
+      
+        &lt;h1 id=&quot;準備～&quot;&gt;&lt;a href=&quot;#準備～&quot; class=&quot;headerlink&quot; title=&quot;準備～&quot;&gt;&lt;/a&gt;準備～&lt;/h1&gt;
+      
     
     </summary>
     
