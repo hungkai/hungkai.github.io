@@ -26,6 +26,13 @@
 
 
 
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
 
 
 
@@ -108,18 +115,18 @@
 
 
 
-  <meta name="description" content="Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個注意事項就順手記下來 系統環境：macOS High Sierra 10.13.6Hexo v3.7.1 — NexT.Pisces v6.3.0  無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/lib/nod">
+  <meta name="description" content="Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個注意事項就順手記下來 系統環境：macOS High Sierra 10.13.6.Hexo v3.7.1 — NexT.Pisces v6.3.0 無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/lib/nod">
 <meta name="keywords" content="Hexo,Github Pages,blog">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用 Hexo 搭配 Github Pages 建立個人 blog - 安裝筆記">
 <meta property="og:url" content="https://hungkai.github.io/2018/07/23/Hexo-Github-Pages-安裝筆記/index.html">
 <meta property="og:site_name" content="Hungkai&#39;s blog">
-<meta property="og:description" content="Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個注意事項就順手記下來 系統環境：macOS High Sierra 10.13.6Hexo v3.7.1 — NexT.Pisces v6.3.0  無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/lib/nod">
+<meta property="og:description" content="Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個注意事項就順手記下來 系統環境：macOS High Sierra 10.13.6.Hexo v3.7.1 — NexT.Pisces v6.3.0 無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/lib/nod">
 <meta property="og:locale" content="zh-TW">
-<meta property="og:updated_time" content="2018-07-23T12:27:58.416Z">
+<meta property="og:updated_time" content="2018-07-23T12:39:09.699Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用 Hexo 搭配 Github Pages 建立個人 blog - 安裝筆記">
-<meta name="twitter:description" content="Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個注意事項就順手記下來 系統環境：macOS High Sierra 10.13.6Hexo v3.7.1 — NexT.Pisces v6.3.0  無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/lib/nod">
+<meta name="twitter:description" content="Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個注意事項就順手記下來 系統環境：macOS High Sierra 10.13.6.Hexo v3.7.1 — NexT.Pisces v6.3.0 無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/lib/nod">
 
 
 
@@ -393,7 +400,7 @@
                 
               
 
-              <time title="創建時間：2018-07-23 17:59:34 / 修改時間：20:27:58" itemprop="dateCreated datePublished" datetime="2018-07-23T17:59:34+08:00">2018-07-23</time>
+              <time title="創建時間：2018-07-23 17:59:34 / 修改時間：20:39:09" itemprop="dateCreated datePublished" datetime="2018-07-23T17:59:34+08:00">2018-07-23</time>
             
 
             
@@ -470,8 +477,7 @@
 
       
         <p>Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個注意事項就順手記下來</p>
-<p><strong>系統環境</strong>：macOS High Sierra 10.13.6<br>Hexo v3.7.1 — NexT.Pisces v6.3.0</p>
-<a id="more"></a>
+<p><strong>系統環境</strong>：macOS High Sierra 10.13.6.<br>Hexo v3.7.1 — NexT.Pisces v6.3.0</p>
 <h2 id="無法安裝-hexo-npm-WARN-checkPermissions-Missing-write-access-to-usr-local-lib-node-modules-usr-local-lib"><a href="#無法安裝-hexo-npm-WARN-checkPermissions-Missing-write-access-to-usr-local-lib-node-modules-usr-local-lib" class="headerlink" title="無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/usr/local/lib"></a>無法安裝 hexo? <code>npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/usr/local/lib</code></h2><p>npm 安裝權限問題，在安裝指令前加上 <code>sudo</code> 提示輸入密碼，輸入後即可安裝。</p>
 <h2 id="為什麼語系套用失敗？"><a href="#為什麼語系套用失敗？" class="headerlink" title="為什麼語系套用失敗？"></a>為什麼語系套用失敗？</h2><p>安裝上述最新版本，<code>language = zh-TW</code>，翻了幾篇參考文章大多都是小寫zh-tw，大寫才能套用主題內的正體中文語系檔。</p>
 <h2 id="建立tags或categories未能正確產生頁面"><a href="#建立tags或categories未能正確產生頁面" class="headerlink" title="建立tags或categories未能正確產生頁面"></a>建立tags或categories未能正確產生頁面</h2><p>建立頁面時，注意雙引號 <code>&quot;categories&quot;</code> 要打正確，手滑在中文狀態下輸出打成 <code>&quot;categories“</code>，導致無法正常產生 categories 頁面。</p>
@@ -485,6 +491,11 @@
 <ol>
 <li>讓NexT主題的Markdown H2自動產生底線. </li>
 <li>讓NexT主題的List不只有圓形</li>
+</ol>
+<p><a href="http://shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html#6-%E4%BF%AE%E6%94%B9%E6%96%87%E7%AB%A0%E5%BA%95%E9%83%A8%E7%9A%84%E9%82%A3%E4%B8%AA%E5%B8%A6-%E5%8F%B7%E7%9A%84%E6%A0%87%E7%AD%BE" target="_blank" rel="noopener">hexo的next主题个性化教程:打造炫酷网站</a>. </p>
+<ol>
+<li>添加顶部加载条. </li>
+<li>修改文章底部带#号的标签</li>
 </ol>
 <p><a href="https://hexo.io/zh-tw/index.html" target="_blank" rel="noopener">Hexo 官方網站</a></p>
 
