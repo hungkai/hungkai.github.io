@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hungkai.github.io/"/>
-  <updated>2018-07-23T09:02:15.504Z</updated>
+  <updated>2018-07-23T10:44:45.402Z</updated>
   <id>https://hungkai.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo + Github Pages 安裝筆記</title>
+    <link href="https://hungkai.github.io/2018/07/23/Hexo-Github-Pages-%E5%AE%89%E8%A3%9D%E7%AD%86%E8%A8%98/"/>
+    <id>https://hungkai.github.io/2018/07/23/Hexo-Github-Pages-安裝筆記/</id>
+    <published>2018-07-23T09:59:34.000Z</published>
+    <updated>2018-07-23T10:44:45.402Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="使用-Hexo-搭配-Github-Pages-建立個人-blog-安裝筆記"><a href="#使用-Hexo-搭配-Github-Pages-建立個人-blog-安裝筆記" class="headerlink" title="使用 Hexo 搭配 Github Pages 建立個人 blog 安裝筆記"></a>使用 Hexo 搭配 Github Pages 建立個人 blog 安裝筆記</h1><p>安裝過程中幾個注意事項</p><p>Hexo v3.7.1 — NexT.Pisces v6.3.0</p><ol><li><p>安裝上述最新版本，<code>language = zh-TW</code>，翻了幾篇參考文章大多都是小寫zh-tw，大寫才能套用主題內的正體中文語系檔。</p></li><li><p>建立頁面時，注意雙引號 <code>&quot;categories&quot;</code> 要打正確，手滑在中文狀態下輸出打成 <code>&quot;categories“</code>，導致無法正常產生 categories 頁面。</p></li><li><p>安裝動畫特效，記得要把正確的檔案下載到主題資料夾內，啟用主題內功能時，建議要到註解寫的網頁看一眼。</p></li></ol><p>參考資料：</p><p><a href="http://lodur46.github.io/post/hexo-github/" target="_blank" rel="noopener">使用 Hexo + Github 建立個人網誌 </a></p><p><a href="https://yaoandy107.github.io/hexo-tutorial/" target="_blank" rel="noopener">Hexo+GitHub，新手也可以快速建立部落格</a></p><p><a href="https://yogapan.github.io/2017/08/11/%E7%94%A8Hexo-Github-Pages%E6%90%AD%E5%BB%BA%E5%80%8B%E4%BA%BA%E9%83%A8%E8%90%BD%E6%A0%BC/" target="_blank" rel="noopener">用Hexo + Github Pages搭建個人部落格</a></p><p><a href="https://hexo.io/zh-tw/index.html" target="_blank" rel="noopener">Hexo 官方網站</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;使用-Hexo-搭配-Github-Pages-建立個人-blog-安裝筆記&quot;&gt;&lt;a href=&quot;#使用-Hexo-搭配-Github-Pages-建立個人-blog-安裝筆記&quot; class=&quot;headerlink&quot; title=&quot;使用 Hexo 搭配 Githu
+      
+    
+    </summary>
+    
+      <category term="Hexo" scheme="https://hungkai.github.io/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://hungkai.github.io/tags/Hexo/"/>
+    
+      <category term="Github Pages" scheme="https://hungkai.github.io/tags/Github-Pages/"/>
+    
+      <category term="blog" scheme="https://hungkai.github.io/tags/blog/"/>
+    
+  </entry>
   
   <entry>
     <title>Ruby on Rails installfest macOS 環境建置</title>
