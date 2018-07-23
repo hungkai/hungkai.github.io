@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hungkai.github.io/"/>
-  <updated>2018-07-23T12:11:03.977Z</updated>
+  <updated>2018-07-23T12:27:58.416Z</updated>
   <id>https://hungkai.github.io/</id>
   
   <author>
@@ -21,14 +21,19 @@
     <link href="https://hungkai.github.io/2018/07/23/Hexo-Github-Pages-%E5%AE%89%E8%A3%9D%E7%AD%86%E8%A8%98/"/>
     <id>https://hungkai.github.io/2018/07/23/Hexo-Github-Pages-安裝筆記/</id>
     <published>2018-07-23T09:59:34.000Z</published>
-    <updated>2018-07-23T12:11:03.977Z</updated>
+    <updated>2018-07-23T12:27:58.416Z</updated>
     
-    <content type="html"><![CDATA[<p>Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個注意事項就順手記下來</p><p><strong>系統環境</strong>：macOS High Sierra 10.13.6<br>Hexo v3.7.1 — NexT.Pisces v6.3.0</p><a id="more"></a><h2 id="無法安裝-hexo-npm-WARN-checkPermissions-Missing-write-access-to-usr-local-lib-node-modules-usr-local-lib"><a href="#無法安裝-hexo-npm-WARN-checkPermissions-Missing-write-access-to-usr-local-lib-node-modules-usr-local-lib" class="headerlink" title="無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/usr/local/lib"></a>無法安裝 hexo? <code>npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/usr/local/lib</code></h2><p>npm 安裝權限問題，在安裝指令前加上 <code>sudo</code> 提示輸入密碼，輸入後即可安裝。</p><h2 id="為什麼語系套用失敗？"><a href="#為什麼語系套用失敗？" class="headerlink" title="為什麼語系套用失敗？"></a>為什麼語系套用失敗？</h2><p>安裝上述最新版本，<code>language = zh-TW</code>，翻了幾篇參考文章大多都是小寫zh-tw，大寫才能套用主題內的正體中文語系檔。</p><h2 id="建立tags或categories未能正確產生頁面"><a href="#建立tags或categories未能正確產生頁面" class="headerlink" title="建立tags或categories未能正確產生頁面"></a>建立tags或categories未能正確產生頁面</h2><p>建立頁面時，注意雙引號 <code>&quot;categories&quot;</code> 要打正確，手滑在中文狀態下輸出打成 <code>&quot;categories“</code>，導致無法正常產生 categories 頁面。</p><h2 id="動畫特效為什麼設為-true-還是沒啟用？"><a href="#動畫特效為什麼設為-true-還是沒啟用？" class="headerlink" title="動畫特效為什麼設為 true 還是沒啟用？"></a>動畫特效為什麼設為 true 還是沒啟用？</h2><p>啟用動畫特效，記得要把正確的檔案下載到主題資料夾內，啟用主題內功能時，建議要到註解寫的網頁看一眼。<br><a href="https://github.com/theme-next/theme-next-canvas-nest" target="_blank" rel="noopener">https://github.com/theme-next/theme-next-canvas-nest</a></p><hr><p><strong>參考資料</strong>：</p><p><a href="http://lodur46.github.io/post/hexo-github/" target="_blank" rel="noopener">使用 Hexo + Github 建立個人網誌 </a></p><p><a href="https://yaoandy107.github.io/hexo-tutorial/" target="_blank" rel="noopener">Hexo+GitHub，新手也可以快速建立部落格</a></p><p><a href="https://yogapan.github.io/2017/08/11/%E7%94%A8Hexo-Github-Pages%E6%90%AD%E5%BB%BA%E5%80%8B%E4%BA%BA%E9%83%A8%E8%90%BD%E6%A0%BC/" target="_blank" rel="noopener">用Hexo + Github Pages搭建個人部落格</a></p><p><a href="https://blog.skylake.tw/2017/09/29/hexo-buildup/" target="_blank" rel="noopener">Hexo部落格建立筆記</a></p><p><a href="https://hexo.io/zh-tw/index.html" target="_blank" rel="noopener">Hexo 官方網站</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個注意事項就順手記下來</p><p><strong>系統環境</strong>：macOS High Sierra 10.13.6<br>Hexo v3.7.1 — NexT.Pisces v6.3.0</p><a id="more"></a><h2 id="無法安裝-hexo-npm-WARN-checkPermissions-Missing-write-access-to-usr-local-lib-node-modules-usr-local-lib"><a href="#無法安裝-hexo-npm-WARN-checkPermissions-Missing-write-access-to-usr-local-lib-node-modules-usr-local-lib" class="headerlink" title="無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/usr/local/lib"></a>無法安裝 hexo? <code>npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/usr/local/lib</code></h2><p>npm 安裝權限問題，在安裝指令前加上 <code>sudo</code> 提示輸入密碼，輸入後即可安裝。</p><h2 id="為什麼語系套用失敗？"><a href="#為什麼語系套用失敗？" class="headerlink" title="為什麼語系套用失敗？"></a>為什麼語系套用失敗？</h2><p>安裝上述最新版本，<code>language = zh-TW</code>，翻了幾篇參考文章大多都是小寫zh-tw，大寫才能套用主題內的正體中文語系檔。</p><h2 id="建立tags或categories未能正確產生頁面"><a href="#建立tags或categories未能正確產生頁面" class="headerlink" title="建立tags或categories未能正確產生頁面"></a>建立tags或categories未能正確產生頁面</h2><p>建立頁面時，注意雙引號 <code>&quot;categories&quot;</code> 要打正確，手滑在中文狀態下輸出打成 <code>&quot;categories“</code>，導致無法正常產生 categories 頁面。</p><h2 id="動畫特效為什麼設為-true-還是沒啟用？"><a href="#動畫特效為什麼設為-true-還是沒啟用？" class="headerlink" title="動畫特效為什麼設為 true 還是沒啟用？"></a>動畫特效為什麼設為 true 還是沒啟用？</h2><p>啟用動畫特效，記得要把正確的檔案下載到主題資料夾內，啟用主題內功能時，建議要到註解寫的網頁看一眼。<br><a href="https://github.com/theme-next/theme-next-canvas-nest" target="_blank" rel="noopener">https://github.com/theme-next/theme-next-canvas-nest</a></p><hr><p><strong>參考資料</strong>：</p><p><a href="http://lodur46.github.io/post/hexo-github/" target="_blank" rel="noopener">使用 Hexo + Github 建立個人網誌 </a></p><p><a href="https://yaoandy107.github.io/hexo-tutorial/" target="_blank" rel="noopener">Hexo+GitHub，新手也可以快速建立部落格</a></p><p><a href="https://yogapan.github.io/2017/08/11/%E7%94%A8Hexo-Github-Pages%E6%90%AD%E5%BB%BA%E5%80%8B%E4%BA%BA%E9%83%A8%E8%90%BD%E6%A0%BC/" target="_blank" rel="noopener">用Hexo + Github Pages搭建個人部落格</a></p><p><a href="https://blog.skylake.tw/2017/09/29/hexo-buildup/" target="_blank" rel="noopener">Hexo部落格建立筆記</a>  </p><ol><li>讓NexT主題的Markdown H2自動產生底線. </li><li>讓NexT主題的List不只有圓形</li></ol><p><a href="https://hexo.io/zh-tw/index.html" target="_blank" rel="noopener">Hexo 官方網站</a></p>]]></content>
     
     <summary type="html">
     
       &lt;p&gt;Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個注意事項就順手記下來&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;系統環境&lt;/strong&gt;：macOS High Sierra 10.13.6&lt;br&gt;Hexo v3.7.1 — NexT.Pisces v6.3.0&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;無法安裝-hexo-npm-WARN-checkPermissions-Missing-write-access-to-usr-local-lib-node-modules-usr-local-lib&quot;&gt;&lt;a href=&quot;#無法安裝-hexo-npm-WARN-checkPermissions-Missing-write-access-to-usr-local-lib-node-modules-usr-local-lib&quot; class=&quot;headerlink&quot; title=&quot;無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/usr/local/lib&quot;&gt;&lt;/a&gt;無法安裝 hexo? &lt;code&gt;npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/usr/local/lib&lt;/code&gt;&lt;/h2&gt;&lt;p&gt;npm 安裝權限問題，在安裝指令前加上 &lt;code&gt;sudo&lt;/code&gt; 提示輸入密碼，輸入後即可安裝。&lt;/p&gt;
+&lt;h2 id=&quot;為什麼語系套用失敗？&quot;&gt;&lt;a href=&quot;#為什麼語系套用失敗？&quot; class=&quot;headerlink&quot; title=&quot;為什麼語系套用失敗？&quot;&gt;&lt;/a&gt;為什麼語系套用失敗？&lt;/h2&gt;&lt;p&gt;安裝上述最新版本，&lt;code&gt;language = zh-TW&lt;/code&gt;，翻了幾篇參考文章大多都是小寫zh-tw，大寫才能套用主題內的正體中文語系檔。&lt;/p&gt;
+&lt;h2 id=&quot;建立tags或categories未能正確產生頁面&quot;&gt;&lt;a href=&quot;#建立tags或categories未能正確產生頁面&quot; class=&quot;headerlink&quot; title=&quot;建立tags或categories未能正確產生頁面&quot;&gt;&lt;/a&gt;建立tags或categories未能正確產生頁面&lt;/h2&gt;&lt;p&gt;建立頁面時，注意雙引號 &lt;code&gt;&amp;quot;categories&amp;quot;&lt;/code&gt; 要打正確，手滑在中文狀態下輸出打成 &lt;code&gt;&amp;quot;categories“&lt;/code&gt;，導致無法正常產生 categories 頁面。&lt;/p&gt;
+&lt;h2 id=&quot;動畫特效為什麼設為-true-還是沒啟用？&quot;&gt;&lt;a href=&quot;#動畫特效為什麼設為-true-還是沒啟用？&quot; class=&quot;headerlink&quot; title=&quot;動畫特效為什麼設為 true 還是沒啟用？&quot;&gt;&lt;/a&gt;動畫特效為什麼設為 true 還是沒啟用？&lt;/h2&gt;
     
     </summary>
     
@@ -54,10 +59,7 @@
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;準備～&quot;&gt;&lt;a href=&quot;#準備～&quot; class=&quot;headerlink&quot; title=&quot;準備～&quot;&gt;&lt;/a&gt;準備～&lt;/h1&gt;
-      
+      &lt;h1 id=&quot;準備～&quot;&gt;&lt;a href=&quot;#準備～&quot; class=&quot;headerlink&quot; title=&quot;準備～&quot;&gt;&lt;/a&gt;準備～&lt;/h1&gt;
     
     </summary>
     
