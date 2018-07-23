@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://hungkai.github.io/about/index.html</loc>
+    <loc>https://hungkai.github.io/2018/07/23/iterm2-zsh-customized-terminal/</loc>
     
-    <lastmod>2018-07-23T14:07:30.355Z</lastmod>
+    <lastmod>2018-07-23T15:31:03.653Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hungkai.github.io/2018/07/23/Ruby-on-Rails-installfest-note/</loc>
+    
+    <lastmod>2018-07-23T14:54:07.755Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://hungkai.github.io/2018/07/23/Hexo-Github-Pages-%E5%AE%89%E8%A3%9D%E7%AD%86%E8%A8%98/</loc>
     
-    <lastmod>2018-07-23T13:15:55.532Z</lastmod>
+    <lastmod>2018-07-23T14:10:39.020Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hungkai.github.io/about/index.html</loc>
+    
+    <lastmod>2018-07-23T14:07:30.355Z</lastmod>
     
   </url>
   
@@ -26,13 +40,6 @@
     <loc>https://hungkai.github.io/categories/index.html</loc>
     
     <lastmod>2018-07-23T09:49:00.640Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hungkai.github.io/2018/07/23/Ruby-on-Rails-installfest-macOS-%E7%92%B0%E5%A2%83%E5%BB%BA%E7%BD%AE/</loc>
-    
-    <lastmod>2018-07-23T09:02:15.504Z</lastmod>
     
   </url>
   

@@ -376,6 +376,345 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://hungkai.github.io/2018/07/23/iterm2-zsh-customized-terminal/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Hungkai Yang">
+      <meta itemprop="description" content="學無止盡">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hungkai's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/23/iterm2-zsh-customized-terminal/" itemprop="url">
+                  iTerm2 搭配 zsh，換掉macOS原生Terminal 筆記
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">發表於</span>
+              
+
+              
+                
+              
+
+              <time title="創建時間：2018-07-23 22:58:59 / 修改時間：23:31:03" itemprop="dateCreated datePublished" datetime="2018-07-23T22:58:59+08:00">2018-07-23</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/07/23/iterm2-zsh-customized-terminal/#comments" itemprop="discussionUrl">
+                
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2018/07/23/iterm2-zsh-customized-terminal/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h2 id="iTerm2-搭配-zsh，換掉macOS原生Terminal-筆記"><a href="#iTerm2-搭配-zsh，換掉macOS原生Terminal-筆記" class="headerlink" title="iTerm2 搭配 zsh，換掉macOS原生Terminal 筆記"></a>iTerm2 搭配 zsh，換掉macOS原生Terminal 筆記</h2><p><a href="http://www.iterm2.com/" target="_blank" rel="noopener">http://www.iterm2.com/</a> 下載 iTerm，下載後拖到 “應用程式” 開啟</p>
+<h2 id="改變-shell-為-zsh"><a href="#改變-shell-為-zsh" class="headerlink" title="改變 shell 為 zsh"></a>改變 shell 為 zsh</h2><p>Mac 預設的 shell 叫做 bash。而 zsh 多了一些比 bash 人性化功能，能客製化的選項也比较多。<br>在終端機輸入<code>$ chsh -s /bin/zsh</code>即改變為 zsh</p>
+<h2 id="安裝-oh-my-zsh"><a href="#安裝-oh-my-zsh" class="headerlink" title="安裝 oh-my-zsh"></a>安裝 oh-my-zsh</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ curl -L http://install.ohmyz.sh | sh</span><br></pre></td></tr></table></figure>
+<h2 id="修改-Theme"><a href="#修改-Theme" class="headerlink" title="修改 Theme"></a>修改 Theme</h2><p>使用文字編輯器打開 .zshrc<br>找到 <code>ZSH_THEME=&quot;robbyrussell&quot;</code> 行並修改如下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#ZSH_THEME=&quot;robbyrussell&quot; &lt;-- 將這行註解掉</span><br><span class="line">ZSH_THEME=&quot;agnoster&quot;</span><br></pre></td></tr></table></figure></p>
+<h2 id="安裝-agnoster-所需字型"><a href="#安裝-agnoster-所需字型" class="headerlink" title="安裝 agnoster 所需字型"></a>安裝 agnoster 所需字型</h2><p>由於 agnoster 需要特殊字型。所以必須安裝 patched 過的三個字體：<a href="https://gist.github.com/1595572" target="_blank" rel="noopener">https://gist.github.com/1595572</a>。(開啟網頁點擊Download ZIP下載，雙擊安裝這三個字體。)</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/23/iterm2-zsh-customized-terminal/#more" rel="contents">
+              閱讀全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://hungkai.github.io/2018/07/23/Ruby-on-Rails-installfest-note/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Hungkai Yang">
+      <meta itemprop="description" content="學無止盡">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hungkai's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/23/Ruby-on-Rails-installfest-note/" itemprop="url">
+                  Ruby on Rails installfest macOS 環境建置 安裝筆記
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">發表於</span>
+              
+
+              
+                
+              
+
+              <time title="創建時間：2018-07-23 22:33:07 / 修改時間：22:54:07" itemprop="dateCreated datePublished" datetime="2018-07-23T22:33:07+08:00">2018-07-23</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分類於</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Ruby-on-Rails/" itemprop="url" rel="index"><span itemprop="name">Ruby on Rails</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/07/23/Ruby-on-Rails-installfest-note/#comments" itemprop="discussionUrl">
+                
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2018/07/23/Ruby-on-Rails-installfest-note/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h1 id="Ruby-on-Rails-installfest-macOS-環境建置-安裝筆記"><a href="#Ruby-on-Rails-installfest-macOS-環境建置-安裝筆記" class="headerlink" title="Ruby on Rails installfest macOS 環境建置 安裝筆記"></a>Ruby on Rails installfest macOS 環境建置 安裝筆記</h1><p>系統平台：macOS High Sierra 10.13.6 on MacBook Pro (Retina, 13-inch, Early 2015)</p>
+<h2 id="安裝-Xcode"><a href="#安裝-Xcode" class="headerlink" title="安裝 Xcode"></a>安裝 Xcode</h2><p>到 appstore 搜尋並安裝 Xcode，經過漫長的等待安裝完，打開Xcode 首次執行.<br>Xcode 會要求同意「<strong>使用者協議</strong>」，選擇 Agree，然後就可以關掉了。</p>
+<h2 id="安裝-Homebrew"><a href="#安裝-Homebrew" class="headerlink" title="安裝 Homebrew"></a>安裝 Homebrew</h2><p>開啟終端機 (Terminal) 複製此行指令安裝，以下需安裝的都透過終端機執行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span><br></pre></td></tr></table></figure></p>
+<p>複製指令按Enter並輸入使用者登入密碼，此處會連 Xcode Command Line Tools 一併裝好</p>
+<p>裝好之後下兩個指令確定以上兩樣工具都安裝完成<br><code>$ brew -v</code> 出現 Homebrew 1.7.0 (版本號可能不同).<br><code>$ xcode-select -p</code>出現<code>&quot;/Library/Developer/CommandLineTools&quot;</code>路徑就完成安裝</p>
+<h2 id="安裝-git，最流行的版控軟體"><a href="#安裝-git，最流行的版控軟體" class="headerlink" title="安裝 git，最流行的版控軟體"></a>安裝 git，最流行的版控軟體</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ brew install git</span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/23/Ruby-on-Rails-installfest-note/#more" rel="contents">
+              閱讀全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://hungkai.github.io/2018/07/23/Hexo-Github-Pages-安裝筆記/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -422,7 +761,7 @@
                 
               
 
-              <time title="創建時間：2018-07-23 17:59:34 / 修改時間：21:15:55" itemprop="dateCreated datePublished" datetime="2018-07-23T17:59:34+08:00">2018-07-23</time>
+              <time title="創建時間：2018-07-23 17:59:34 / 修改時間：22:10:39" itemprop="dateCreated datePublished" datetime="2018-07-23T17:59:34+08:00">2018-07-23</time>
             
 
             
@@ -491,7 +830,7 @@
 
       
         
-          <p>Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個注意事項就順手記下來</p>
+          <p>Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個狀況跟注意事項就順手記下來</p>
 <p><strong>系統環境</strong>：macOS High Sierra 10.13.6.<br>Hexo v3.7.1 — NexT.Pisces v6.3.0</p>
 <h2 id="無法安裝-hexo-npm-WARN-checkPermissions-Missing-write-access-to-usr-local-lib-node-modules-usr-local-lib"><a href="#無法安裝-hexo-npm-WARN-checkPermissions-Missing-write-access-to-usr-local-lib-node-modules-usr-local-lib" class="headerlink" title="無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/usr/local/lib"></a>無法安裝 hexo? <code>npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/usr/local/lib</code></h2><p>npm 安裝權限問題，在安裝指令前加上 <code>sudo</code> 提示輸入密碼，輸入後即可安裝。</p>
 <h2 id="為什麼語系套用失敗？"><a href="#為什麼語系套用失敗？" class="headerlink" title="為什麼語系套用失敗？"></a>為什麼語系套用失敗？</h2><p>安裝上述最新版本，<code>language = zh-TW</code>，翻了幾篇參考文章大多都是小寫zh-tw，大寫才能套用主題內的正體中文語系檔。</p>
@@ -500,180 +839,6 @@
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2018/07/23/Hexo-Github-Pages-安裝筆記/#more" rel="contents">
-              閱讀全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://hungkai.github.io/2018/07/23/Ruby-on-Rails-installfest-macOS-環境建置/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Hungkai Yang">
-      <meta itemprop="description" content="學無止盡">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hungkai's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/07/23/Ruby-on-Rails-installfest-macOS-環境建置/" itemprop="url">
-                  Ruby on Rails installfest macOS 環境建置
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">發表於</span>
-              
-
-              
-                
-              
-
-              <time title="創建時間：2018-07-23 15:22:49 / 修改時間：17:02:15" itemprop="dateCreated datePublished" datetime="2018-07-23T15:22:49+08:00">2018-07-23</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分類於</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Ruby-on-Rails/" itemprop="url" rel="index"><span itemprop="name">Ruby on Rails</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2018/07/23/Ruby-on-Rails-installfest-macOS-環境建置/#comments" itemprop="discussionUrl">
-                
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2018/07/23/Ruby-on-Rails-installfest-macOS-環境建置/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h1 id="準備～"><a href="#準備～" class="headerlink" title="準備～"></a>準備～</h1>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/07/23/Ruby-on-Rails-installfest-macOS-環境建置/#more" rel="contents">
               閱讀全文 &raquo;
             </a>
           </div>
@@ -761,7 +926,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">文章</span>
                   </a>
                 </div>
@@ -803,7 +968,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">6</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">8</span>
                     <span class="site-state-item-name">標籤</span>
                   </a>
                 </div>
