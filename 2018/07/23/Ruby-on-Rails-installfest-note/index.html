@@ -117,18 +117,18 @@
 
 
 
-  <meta name="description" content="Ruby on Rails installfest macOS 環境建置 安裝筆記系統平台：macOS High Sierra 10.13.6 on MacBook Pro (Retina, 13-inch, Early 2015) 安裝 Xcode到 appstore 搜尋並安裝 Xcode，經過漫長的等待安裝完，打開Xcode 首次執行.Xcode 會要求同意「使用者協議」，選擇 Agree，">
+  <meta name="description" content="Ruby on Rails installfest macOS 環境建置 安裝筆記 系統平台：macOS High Sierra 10.13.6 on MacBook Pro (Retina, 13-inch, Early 2015)  安裝 Xcode 到 appstore 搜尋並安裝 Xcode，經過漫長的等待安裝完，打開Xcode 首次執行. Xcode 會要求同意「使用者協議」，選擇 A">
 <meta name="keywords" content="ror,Ruby on Rails,環境建置">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Ruby on Rails installfest macOS 環境建置 安裝筆記">
 <meta property="og:url" content="https://hungkai.github.io/2018/07/23/Ruby-on-Rails-installfest-note/index.html">
 <meta property="og:site_name" content="Hungkai&#39;s blog">
-<meta property="og:description" content="Ruby on Rails installfest macOS 環境建置 安裝筆記系統平台：macOS High Sierra 10.13.6 on MacBook Pro (Retina, 13-inch, Early 2015) 安裝 Xcode到 appstore 搜尋並安裝 Xcode，經過漫長的等待安裝完，打開Xcode 首次執行.Xcode 會要求同意「使用者協議」，選擇 Agree，">
+<meta property="og:description" content="Ruby on Rails installfest macOS 環境建置 安裝筆記 系統平台：macOS High Sierra 10.13.6 on MacBook Pro (Retina, 13-inch, Early 2015)  安裝 Xcode 到 appstore 搜尋並安裝 Xcode，經過漫長的等待安裝完，打開Xcode 首次執行. Xcode 會要求同意「使用者協議」，選擇 A">
 <meta property="og:locale" content="zh-TW">
 <meta property="og:updated_time" content="2018-07-23T14:54:07.755Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Ruby on Rails installfest macOS 環境建置 安裝筆記">
-<meta name="twitter:description" content="Ruby on Rails installfest macOS 環境建置 安裝筆記系統平台：macOS High Sierra 10.13.6 on MacBook Pro (Retina, 13-inch, Early 2015) 安裝 Xcode到 appstore 搜尋並安裝 Xcode，經過漫長的等待安裝完，打開Xcode 首次執行.Xcode 會要求同意「使用者協議」，選擇 Agree，">
+<meta name="twitter:description" content="Ruby on Rails installfest macOS 環境建置 安裝筆記 系統平台：macOS High Sierra 10.13.6 on MacBook Pro (Retina, 13-inch, Early 2015)  安裝 Xcode 到 appstore 搜尋並安裝 Xcode，經過漫長的等待安裝完，打開Xcode 首次執行. Xcode 會要求同意「使用者協議」，選擇 A">
 
 
 
@@ -496,22 +496,41 @@
       
 
       
-        <h1 id="Ruby-on-Rails-installfest-macOS-環境建置-安裝筆記"><a href="#Ruby-on-Rails-installfest-macOS-環境建置-安裝筆記" class="headerlink" title="Ruby on Rails installfest macOS 環境建置 安裝筆記"></a>Ruby on Rails installfest macOS 環境建置 安裝筆記</h1><p>系統平台：macOS High Sierra 10.13.6 on MacBook Pro (Retina, 13-inch, Early 2015)</p>
-<h2 id="安裝-Xcode"><a href="#安裝-Xcode" class="headerlink" title="安裝 Xcode"></a>安裝 Xcode</h2><p>到 appstore 搜尋並安裝 Xcode，經過漫長的等待安裝完，打開Xcode 首次執行.<br>Xcode 會要求同意「<strong>使用者協議</strong>」，選擇 Agree，然後就可以關掉了。</p>
-<h2 id="安裝-Homebrew"><a href="#安裝-Homebrew" class="headerlink" title="安裝 Homebrew"></a>安裝 Homebrew</h2><p>開啟終端機 (Terminal) 複製此行指令安裝，以下需安裝的都透過終端機執行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span><br></pre></td></tr></table></figure></p>
+        <h1 id="ruby-on-rails-installfest-macos-環境建置-安裝筆記"><a class="markdownIt-Anchor" href="#ruby-on-rails-installfest-macos-環境建置-安裝筆記"></a> Ruby on Rails installfest macOS 環境建置 安裝筆記</h1>
+<p>系統平台：macOS High Sierra 10.13.6 on MacBook Pro (Retina, 13-inch, Early 2015)</p>
+<h2 id="安裝-xcode"><a class="markdownIt-Anchor" href="#安裝-xcode"></a> 安裝 Xcode</h2>
+<p>到 appstore 搜尋並安裝 Xcode，經過漫長的等待安裝完，打開Xcode 首次執行.<br>
+Xcode 會要求同意「<strong>使用者協議</strong>」，選擇 Agree，然後就可以關掉了。</p>
+<h2 id="安裝-homebrew"><a class="markdownIt-Anchor" href="#安裝-homebrew"></a> 安裝 Homebrew</h2>
+<p>開啟終端機 (Terminal) 複製此行指令安裝，以下需安裝的都透過終端機執行</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> ruby -e <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>"</span></span></span><br></pre></td></tr></table></figure>
 <p>複製指令按Enter並輸入使用者登入密碼，此處會連 Xcode Command Line Tools 一併裝好</p>
-<p>裝好之後下兩個指令確定以上兩樣工具都安裝完成<br><code>$ brew -v</code> 出現 Homebrew 1.7.0 (版本號可能不同).<br><code>$ xcode-select -p</code>出現<code>&quot;/Library/Developer/CommandLineTools&quot;</code>路徑就完成安裝</p>
-<h2 id="安裝-git，最流行的版控軟體"><a href="#安裝-git，最流行的版控軟體" class="headerlink" title="安裝 git，最流行的版控軟體"></a>安裝 git，最流行的版控軟體</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ brew install git</span><br></pre></td></tr></table></figure>
+<p>裝好之後下兩個指令確定以上兩樣工具都安裝完成<br>
+<code>$ brew -v</code> 出現 Homebrew 1.7.0 (版本號可能不同).<br>
+<code>$ xcode-select -p</code>出現<code>&quot;/Library/Developer/CommandLineTools&quot;</code>路徑就完成安裝</p>
+<h2 id="安裝-git最流行的版控軟體"><a class="markdownIt-Anchor" href="#安裝-git最流行的版控軟體"></a> 安裝 git，最流行的版控軟體</h2>
+<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="keyword">brew </span><span class="keyword">install </span>git</span><br></pre></td></tr></table></figure>
 <p>裝好後確認 git 版本 <code>$ git --version</code> =&gt; 出現 <code>git version 2.18.0</code> 就完成</p>
-<h2 id="安裝-RVM，Ruby-版本控制工具"><a href="#安裝-RVM，Ruby-版本控制工具" class="headerlink" title="安裝 RVM，Ruby 版本控制工具"></a>安裝 RVM，Ruby 版本控制工具</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ \curl -L https://get.rvm.io | bash -s stable</span><br></pre></td></tr></table></figure>
-<p>安裝完後輸入 <code>$ source ~/.rvm/scripts/rvm</code> 讓 rvm 生效<br>可輸入 <code>$ rvm -v</code> 確認安裝版本</p>
-<h2 id="安裝-Ruby-2-4-1，會花點時間"><a href="#安裝-Ruby-2-4-1，會花點時間" class="headerlink" title="安裝 Ruby 2.4.1，會花點時間"></a>安裝 Ruby 2.4.1，會花點時間</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ rvm install 2.4.1</span><br></pre></td></tr></table></figure>
-<p>跑完之後下 <code>$ rvm use 2.4.1 --default</code> 設定預設使用版本<br>裝好重開終端機下 <code>$ ruby -v</code> 確認版本</p>
-<h2 id="安裝-Rails-5-1-1"><a href="#安裝-Rails-5-1-1" class="headerlink" title="安裝 Rails 5.1.1"></a>安裝 Rails 5.1.1</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ gem install rails -v 5.1.1</span><br></pre></td></tr></table></figure>
-<p>(此處安裝5.1.1，可依需求更改)<br>  裝完可下 <code>$ rails -v</code> 確認版本</p>
-<p>到這邊都沒出錯，就可以建立 Rails 專案了！<br>下一篇我們來換個 <strong>Terminal</strong> 吧～</p>
+<h2 id="安裝-rvmruby-版本控制工具"><a class="markdownIt-Anchor" href="#安裝-rvmruby-版本控制工具"></a> 安裝 RVM，Ruby 版本控制工具</h2>
+<figure class="highlight gams"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">$</span> \curl -L https:<span class="comment">//get.rvm.io | bash -s stable</span></span><br></pre></td></tr></table></figure>
+<p>安裝完後輸入 <code>$ source ~/.rvm/scripts/rvm</code> 讓 rvm 生效<br>
+可輸入 <code>$ rvm -v</code> 確認安裝版本</p>
+<h2 id="安裝-ruby-241會花點時間"><a class="markdownIt-Anchor" href="#安裝-ruby-241會花點時間"></a> 安裝 Ruby 2.4.1，會花點時間</h2>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ rvm install <span class="number">2.4</span><span class="number">.1</span></span><br></pre></td></tr></table></figure>
+<p>跑完之後下 <code>$ rvm use 2.4.1 --default</code> 設定預設使用版本<br>
+裝好重開終端機下 <code>$ ruby -v</code> 確認版本</p>
+<h2 id="安裝-rails-511"><a class="markdownIt-Anchor" href="#安裝-rails-511"></a> 安裝 Rails 5.1.1</h2>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ gem install rails -v <span class="number">5.1</span><span class="number">.1</span></span><br></pre></td></tr></table></figure>
+<p>(此處安裝5.1.1，可依需求更改)<br>
+裝完可下 <code>$ rails -v</code> 確認版本</p>
+<p>到這邊都沒出錯，就可以建立 Rails 專案了！<br>
+下一篇我們來換個 <strong>Terminal</strong> 吧～</p>
 <hr>
-<h1 id="參考資料："><a href="#參考資料：" class="headerlink" title="參考資料："></a>參考資料：</h1><p><a href="http://docs.railsbridge.org/installfest" target="_blank" rel="noopener">RailsBridge Installfest</a><br><a href="https://railsbook.tw/" target="_blank" rel="noopener">為你自己學 Ruby on Rails</a><br><a href="https://blog.niclin.tw/2016/06/04/ruby-on-rails-install-on-mac-%E5%AE%89%E8%A3%9D%E6%AD%A5%E9%A9%9F/" target="_blank" rel="noopener">Ruby on Rails install on Mac 安裝步驟</a><br><a href="https://courses.growthschool.com/p/rails-setup/" target="_blank" rel="noopener">Rails 環境建置課程</a></p>
+<h1 id="參考資料"><a class="markdownIt-Anchor" href="#參考資料"></a> 參考資料：</h1>
+<p><a href="http://docs.railsbridge.org/installfest" target="_blank" rel="noopener">RailsBridge Installfest</a><br>
+<a href="https://railsbook.tw/" target="_blank" rel="noopener">為你自己學 Ruby on Rails</a><br>
+<a href="https://blog.niclin.tw/2016/06/04/ruby-on-rails-install-on-mac-%E5%AE%89%E8%A3%9D%E6%AD%A5%E9%A9%9F/" target="_blank" rel="noopener">Ruby on Rails install on Mac 安裝步驟</a><br>
+<a href="https://courses.growthschool.com/p/rails-setup/" target="_blank" rel="noopener">Rails 環境建置課程</a></p>
 
       
     </div>
@@ -762,7 +781,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Ruby-on-Rails-installfest-macOS-環境建置-安裝筆記"><span class="nav-number">1.</span> <span class="nav-text">Ruby on Rails installfest macOS 環境建置 安裝筆記</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝-Xcode"><span class="nav-number">1.1.</span> <span class="nav-text">安裝 Xcode</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝-Homebrew"><span class="nav-number">1.2.</span> <span class="nav-text">安裝 Homebrew</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝-git，最流行的版控軟體"><span class="nav-number">1.3.</span> <span class="nav-text">安裝 git，最流行的版控軟體</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝-RVM，Ruby-版本控制工具"><span class="nav-number">1.4.</span> <span class="nav-text">安裝 RVM，Ruby 版本控制工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝-Ruby-2-4-1，會花點時間"><span class="nav-number">1.5.</span> <span class="nav-text">安裝 Ruby 2.4.1，會花點時間</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝-Rails-5-1-1"><span class="nav-number">1.6.</span> <span class="nav-text">安裝 Rails 5.1.1</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#參考資料："><span class="nav-number">2.</span> <span class="nav-text">參考資料：</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#ruby-on-rails-installfest-macos-環境建置-安裝筆記"><span class="nav-number">1.</span> <span class="nav-text"> Ruby on Rails installfest macOS 環境建置 安裝筆記</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝-xcode"><span class="nav-number">1.1.</span> <span class="nav-text"> 安裝 Xcode</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝-homebrew"><span class="nav-number">1.2.</span> <span class="nav-text"> 安裝 Homebrew</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝-git最流行的版控軟體"><span class="nav-number">1.3.</span> <span class="nav-text"> 安裝 git，最流行的版控軟體</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝-rvmruby-版本控制工具"><span class="nav-number">1.4.</span> <span class="nav-text"> 安裝 RVM，Ruby 版本控制工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝-ruby-241會花點時間"><span class="nav-number">1.5.</span> <span class="nav-text"> 安裝 Ruby 2.4.1，會花點時間</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝-rails-511"><span class="nav-number">1.6.</span> <span class="nav-text"> 安裝 Rails 5.1.1</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#參考資料"><span class="nav-number">2.</span> <span class="nav-text"> 參考資料：</span></a></li></ol></div>
             
 
           </div>

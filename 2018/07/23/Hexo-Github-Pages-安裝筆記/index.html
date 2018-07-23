@@ -117,18 +117,18 @@
 
 
 
-  <meta name="description" content="Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個狀況跟注意事項就順手記下來 系統環境：macOS High Sierra 10.13.6.Hexo v3.7.1 — NexT.Pisces v6.3.0 無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/lib/">
+  <meta name="description" content="Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個狀況跟注意事項就順手記下來 系統環境：macOS High Sierra 10.13.6. Hexo v3.7.1 — NexT.Pisces v6.3.0  無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/li">
 <meta name="keywords" content="Hexo,Github Pages,blog">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用 Hexo 搭配 Github Pages 建立個人 blog - 安裝筆記">
 <meta property="og:url" content="https://hungkai.github.io/2018/07/23/Hexo-Github-Pages-安裝筆記/index.html">
 <meta property="og:site_name" content="Hungkai&#39;s blog">
-<meta property="og:description" content="Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個狀況跟注意事項就順手記下來 系統環境：macOS High Sierra 10.13.6.Hexo v3.7.1 — NexT.Pisces v6.3.0 無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/lib/">
+<meta property="og:description" content="Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個狀況跟注意事項就順手記下來 系統環境：macOS High Sierra 10.13.6. Hexo v3.7.1 — NexT.Pisces v6.3.0  無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/li">
 <meta property="og:locale" content="zh-TW">
 <meta property="og:updated_time" content="2018-07-23T14:10:39.020Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用 Hexo 搭配 Github Pages 建立個人 blog - 安裝筆記">
-<meta name="twitter:description" content="Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個狀況跟注意事項就順手記下來 系統環境：macOS High Sierra 10.13.6.Hexo v3.7.1 — NexT.Pisces v6.3.0 無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/lib/">
+<meta name="twitter:description" content="Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個狀況跟注意事項就順手記下來 系統環境：macOS High Sierra 10.13.6. Hexo v3.7.1 — NexT.Pisces v6.3.0  無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/li">
 
 
 
@@ -497,11 +497,17 @@
 
       
         <p>Google 可以找到很多 Hexo + Github Pages 安裝心得，過程中遇到幾個狀況跟注意事項就順手記下來</p>
-<p><strong>系統環境</strong>：macOS High Sierra 10.13.6.<br>Hexo v3.7.1 — NexT.Pisces v6.3.0</p>
-<h2 id="無法安裝-hexo-npm-WARN-checkPermissions-Missing-write-access-to-usr-local-lib-node-modules-usr-local-lib"><a href="#無法安裝-hexo-npm-WARN-checkPermissions-Missing-write-access-to-usr-local-lib-node-modules-usr-local-lib" class="headerlink" title="無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/usr/local/lib"></a>無法安裝 hexo? <code>npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/usr/local/lib</code></h2><p>npm 安裝權限問題，在安裝指令前加上 <code>sudo</code> 提示輸入密碼，輸入後即可安裝。</p>
-<h2 id="為什麼語系套用失敗？"><a href="#為什麼語系套用失敗？" class="headerlink" title="為什麼語系套用失敗？"></a>為什麼語系套用失敗？</h2><p>安裝上述最新版本，<code>language = zh-TW</code>，翻了幾篇參考文章大多都是小寫zh-tw，大寫才能套用主題內的正體中文語系檔。</p>
-<h2 id="建立tags或categories未能正確產生頁面"><a href="#建立tags或categories未能正確產生頁面" class="headerlink" title="建立tags或categories未能正確產生頁面"></a>建立tags或categories未能正確產生頁面</h2><p>建立頁面時，注意雙引號 <code>&quot;categories&quot;</code> 要打正確，手滑在中文狀態下輸出打成 <code>&quot;categories“</code>，導致無法正常產生 categories 頁面。</p>
-<h2 id="動畫特效為什麼設為-true-還是沒啟用？"><a href="#動畫特效為什麼設為-true-還是沒啟用？" class="headerlink" title="動畫特效為什麼設為 true 還是沒啟用？"></a>動畫特效為什麼設為 true 還是沒啟用？</h2><p>啟用動畫特效，記得要把正確的檔案下載到主題資料夾內，啟用主題內功能時，建議要到註解寫的網頁看一眼。<br><a href="https://github.com/theme-next/theme-next-canvas-nest" target="_blank" rel="noopener">https://github.com/theme-next/theme-next-canvas-nest</a></p>
+<p><strong>系統環境</strong>：macOS High Sierra 10.13.6.<br>
+Hexo v3.7.1 — NexT.Pisces v6.3.0</p>
+<h2 id="無法安裝-hexo-npm-warn-checkpermissions-missing-write-access-to-usrlocallibnode_modulesusrlocallib"><a class="markdownIt-Anchor" href="#無法安裝-hexo-npm-warn-checkpermissions-missing-write-access-to-usrlocallibnode_modulesusrlocallib"></a> 無法安裝 hexo? <code>npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/usr/local/lib</code></h2>
+<p>npm 安裝權限問題，在安裝指令前加上 <code>sudo</code> 提示輸入密碼，輸入後即可安裝。</p>
+<h2 id="為什麼語系套用失敗"><a class="markdownIt-Anchor" href="#為什麼語系套用失敗"></a> 為什麼語系套用失敗？</h2>
+<p>安裝上述最新版本，<code>language = zh-TW</code>，翻了幾篇參考文章大多都是小寫zh-tw，大寫才能套用主題內的正體中文語系檔。</p>
+<h2 id="建立tags或categories未能正確產生頁面"><a class="markdownIt-Anchor" href="#建立tags或categories未能正確產生頁面"></a> 建立tags或categories未能正確產生頁面</h2>
+<p>建立頁面時，注意雙引號 <code>&quot;categories&quot;</code> 要打正確，手滑在中文狀態下輸出打成 <code>&quot;categories“</code>，導致無法正常產生 categories 頁面。</p>
+<h2 id="動畫特效為什麼設為-true-還是沒啟用"><a class="markdownIt-Anchor" href="#動畫特效為什麼設為-true-還是沒啟用"></a> 動畫特效為什麼設為 true 還是沒啟用？</h2>
+<p>啟用動畫特效，記得要把正確的檔案下載到主題資料夾內，啟用主題內功能時，建議要到註解寫的網頁看一眼。<br>
+<a href="https://github.com/theme-next/theme-next-canvas-nest" target="_blank" rel="noopener">https://github.com/theme-next/theme-next-canvas-nest</a></p>
 <hr>
 <p><strong>參考資料</strong>：</p>
 <p><a href="http://lodur46.github.io/post/hexo-github/" target="_blank" rel="noopener">使用 Hexo + Github 建立個人網誌 </a></p>
@@ -509,16 +515,16 @@
 <p><a href="https://yogapan.github.io/2017/08/11/%E7%94%A8Hexo-Github-Pages%E6%90%AD%E5%BB%BA%E5%80%8B%E4%BA%BA%E9%83%A8%E8%90%BD%E6%A0%BC/" target="_blank" rel="noopener">用Hexo + Github Pages搭建個人部落格</a></p>
 <p><a href="https://blog.skylake.tw/2017/09/29/hexo-buildup/" target="_blank" rel="noopener">Hexo部落格建立筆記</a></p>
 <ul>
-<li>讓NexT主題的Markdown H2自動產生底線. </li>
+<li>讓NexT主題的Markdown H2自動產生底線.</li>
 <li>讓NexT主題的List不只有圓形</li>
 <li>文章摘要顯示使用</li>
 </ul>
-<p><a href="http://www.shenzekun.cn/hexo的next主题个性化配置教程.html" target="_blank" rel="noopener">hexo的next主题个性化教程:打造炫酷网站</a></p>
+<p><a href="http://www.shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html" target="_blank" rel="noopener">hexo的next主题个性化教程:打造炫酷网站</a></p>
 <ul>
 <li>添加顶部加载条</li>
 <li>修改文章底部带#号的标签</li>
 </ul>
-<p><a href="https://hexo.io/zh-tw/index.html" target="_blank" rel="noopener">Hexo 官方網站</a> </p>
+<p><a href="https://hexo.io/zh-tw/index.html" target="_blank" rel="noopener">Hexo 官方網站</a></p>
 <p><a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener">NexT 官方網站</a></p>
 
       
@@ -766,7 +772,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#無法安裝-hexo-npm-WARN-checkPermissions-Missing-write-access-to-usr-local-lib-node-modules-usr-local-lib"><span class="nav-number">1.</span> <span class="nav-text">無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/usr/local/lib</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#為什麼語系套用失敗？"><span class="nav-number">2.</span> <span class="nav-text">為什麼語系套用失敗？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#建立tags或categories未能正確產生頁面"><span class="nav-number">3.</span> <span class="nav-text">建立tags或categories未能正確產生頁面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#動畫特效為什麼設為-true-還是沒啟用？"><span class="nav-number">4.</span> <span class="nav-text">動畫特效為什麼設為 true 還是沒啟用？</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#無法安裝-hexo-npm-warn-checkpermissions-missing-write-access-to-usrlocallibnode_modulesusrlocallib"><span class="nav-number">1.</span> <span class="nav-text"> 無法安裝 hexo? npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/usr/local/lib</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#為什麼語系套用失敗"><span class="nav-number">2.</span> <span class="nav-text"> 為什麼語系套用失敗？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#建立tags或categories未能正確產生頁面"><span class="nav-number">3.</span> <span class="nav-text"> 建立tags或categories未能正確產生頁面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#動畫特效為什麼設為-true-還是沒啟用"><span class="nav-number">4.</span> <span class="nav-text"> 動畫特效為什麼設為 true 還是沒啟用？</span></a></li></ol></div>
             
 
           </div>
