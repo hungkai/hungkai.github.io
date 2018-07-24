@@ -378,6 +378,194 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://hungkai.github.io/2018/07/24/Disable-iTunes-on-macOS-High-Sierra/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Hungkai Yang">
+      <meta itemprop="description" content="學無止盡">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hungkai's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/24/Disable-iTunes-on-macOS-High-Sierra/" itemprop="url">
+                  Disable iTunes on macOS High Sierra
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">發表於</span>
+              
+
+              
+                
+              
+
+              <time title="創建時間：2018-07-24 15:19:57 / 修改時間：15:57:12" itemprop="dateCreated datePublished" datetime="2018-07-24T15:19:57+08:00">2018-07-24</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分類於</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/iTunes/" itemprop="url" rel="index"><span itemprop="name">iTunes</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/07/24/Disable-iTunes-on-macOS-High-Sierra/#comments" itemprop="discussionUrl">
+                
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2018/07/24/Disable-iTunes-on-macOS-High-Sierra/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h1 id="disable-itunes-on-macos-high-sierra-如何停用-itunes"><a class="markdownIt-Anchor" href="#disable-itunes-on-macos-high-sierra-如何停用-itunes"></a> Disable iTunes on macOS High Sierra 如何停用 iTunes</h1>
+<h2 id="why-do-i-want-to-disable-itunes"><a class="markdownIt-Anchor" href="#why-do-i-want-to-disable-itunes"></a> Why do I want to disable iTunes?</h2>
+<p>I don’t have an iPhone/iPad. And I listen to the music on Youtube.  The most annoying thing is that iTunes often pops-up and I do not want it to interrupt my working.  I searched on Google and realized lots people encounter the same problem due to using earphone on Macbook. So I decide to disable my iTunes.</p>
+<h2 id="step-1-disable-sip-on-high-sierra"><a class="markdownIt-Anchor" href="#step-1-disable-sip-on-high-sierra"></a> Step 1: Disable SIP on High Sierra</h2>
+<ol>
+<li>Power off your device</li>
+<li>Power on your device while maintaining ⌘ and R pressed</li>
+<li>Once you reach the recovery system, select <strong>Terminal</strong> from the <strong>Utilities</strong> menu</li>
+<li>Type <code>$ csrutil disable</code> and then reboot</li>
+</ol>
+<p>If you want to enable SIP, type <code>$ csrutil enable</code>.</p>
+<h2 id="step-2-removing-the-executable-property-on-itunesapp"><a class="markdownIt-Anchor" href="#step-2-removing-the-executable-property-on-itunesapp"></a> Step 2: Removing the “executable” property on iTunes.app</h2>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> sudo chmod -x /Applications/iTunes.app</span></span><br></pre></td></tr></table></figure>
+<p>If you want to enable iTunes, run the following:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> sudo chmod +x /Applications/iTunes.app</span></span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/24/Disable-iTunes-on-macOS-High-Sierra/#more" rel="contents">
+              閱讀全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://hungkai.github.io/2018/07/23/iterm2-zsh-customized-terminal/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -960,7 +1148,7 @@ Hexo v3.7.1 — NexT.Pisces v6.3.0</p>
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">文章</span>
                   </a>
                 </div>
@@ -977,7 +1165,9 @@ Hexo v3.7.1 — NexT.Pisces v6.3.0</p>
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">分類</span>
                   </a>
                 </div>
@@ -1006,7 +1196,11 @@ Hexo v3.7.1 — NexT.Pisces v6.3.0</p>
                     
                       
                     
-                    <span class="site-state-item-count">8</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">10</span>
                     <span class="site-state-item-name">標籤</span>
                   </a>
                 </div>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hungkai.github.io/"/>
-  <updated>2018-07-23T17:52:23.253Z</updated>
+  <updated>2018-07-24T07:57:12.172Z</updated>
   <id>https://hungkai.github.io/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Disable iTunes on macOS High Sierra</title>
+    <link href="https://hungkai.github.io/2018/07/24/Disable-iTunes-on-macOS-High-Sierra/"/>
+    <id>https://hungkai.github.io/2018/07/24/Disable-iTunes-on-macOS-High-Sierra/</id>
+    <published>2018-07-24T07:19:57.000Z</published>
+    <updated>2018-07-24T07:57:12.172Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="disable-itunes-on-macos-high-sierra-如何停用-itunes"><a class="markdownIt-Anchor" href="#disable-itunes-on-macos-high-sierra-如何停用-itunes"></a> Disable iTunes on macOS High Sierra 如何停用 iTunes</h1><h2 id="why-do-i-want-to-disable-itunes"><a class="markdownIt-Anchor" href="#why-do-i-want-to-disable-itunes"></a> Why do I want to disable iTunes?</h2><p>I don’t have an iPhone/iPad. And I listen to the music on Youtube.  The most annoying thing is that iTunes often pops-up and I do not want it to interrupt my working.  I searched on Google and realized lots people encounter the same problem due to using earphone on Macbook. So I decide to disable my iTunes.</p><h2 id="step-1-disable-sip-on-high-sierra"><a class="markdownIt-Anchor" href="#step-1-disable-sip-on-high-sierra"></a> Step 1: Disable SIP on High Sierra</h2><ol><li>Power off your device</li><li>Power on your device while maintaining ⌘ and R pressed</li><li>Once you reach the recovery system, select <strong>Terminal</strong> from the <strong>Utilities</strong> menu</li><li>Type <code>$ csrutil disable</code> and then reboot</li></ol><p>If you want to enable SIP, type <code>$ csrutil enable</code>.</p><h2 id="step-2-removing-the-executable-property-on-itunesapp"><a class="markdownIt-Anchor" href="#step-2-removing-the-executable-property-on-itunesapp"></a> Step 2: Removing the “executable” property on iTunes.app</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> sudo chmod -x /Applications/iTunes.app</span></span><br></pre></td></tr></table></figure><p>If you want to enable iTunes, run the following:</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> sudo chmod +x /Applications/iTunes.app</span></span><br></pre></td></tr></table></figure><p>Make sure you have disabled SIP, otherwise you will see <strong><code>operation not permitted</code></strong>.</p><h3 id="all-done"><a class="markdownIt-Anchor" href="#all-done"></a> All Done!</h3><p><br><br></p><blockquote><h4 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h4></blockquote><p><a href="https://superuser.com/questions/88614/is-it-possible-to-uninstall-or-disable-itunes-in-os-x" target="_blank" rel="noopener">Is it possible to uninstall or disable iTunes</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;disable-itunes-on-macos-high-sierra-如何停用-itunes&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#disable-itunes-on-macos-high-sierra-如何停用-itunes&quot;&gt;&lt;/a&gt; Disable iTunes on macOS High Sierra 如何停用 iTunes&lt;/h1&gt;
+&lt;h2 id=&quot;why-do-i-want-to-disable-itunes&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#why-do-i-want-to-disable-itunes&quot;&gt;&lt;/a&gt; Why do I want to disable iTunes?&lt;/h2&gt;
+&lt;p&gt;I don’t have an iPhone/iPad. And I listen to the music on Youtube.  The most annoying thing is that iTunes often pops-up and I do not want it to interrupt my working.  I searched on Google and realized lots people encounter the same problem due to using earphone on Macbook. So I decide to disable my iTunes.&lt;/p&gt;
+&lt;h2 id=&quot;step-1-disable-sip-on-high-sierra&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#step-1-disable-sip-on-high-sierra&quot;&gt;&lt;/a&gt; Step 1: Disable SIP on High Sierra&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Power off your device&lt;/li&gt;
+&lt;li&gt;Power on your device while maintaining ⌘ and R pressed&lt;/li&gt;
+&lt;li&gt;Once you reach the recovery system, select &lt;strong&gt;Terminal&lt;/strong&gt; from the &lt;strong&gt;Utilities&lt;/strong&gt; menu&lt;/li&gt;
+&lt;li&gt;Type &lt;code&gt;$ csrutil disable&lt;/code&gt; and then reboot&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you want to enable SIP, type &lt;code&gt;$ csrutil enable&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;step-2-removing-the-executable-property-on-itunesapp&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#step-2-removing-the-executable-property-on-itunesapp&quot;&gt;&lt;/a&gt; Step 2: Removing the “executable” property on iTunes.app&lt;/h2&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt; sudo chmod -x /Applications/iTunes.app&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;If you want to enable iTunes, run the following:&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt; sudo chmod +x /Applications/iTunes.app&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="iTunes" scheme="https://hungkai.github.io/categories/iTunes/"/>
+    
+    
+      <category term="iTunes" scheme="https://hungkai.github.io/tags/iTunes/"/>
+    
+      <category term="macOS" scheme="https://hungkai.github.io/tags/macOS/"/>
+    
+  </entry>
   
   <entry>
     <title>iTerm2 搭配 zsh，換掉macOS原生Terminal 筆記</title>
