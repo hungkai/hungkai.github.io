@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Sublime Text 3 settings for Rails developer]]></title>
+    <url>%2F2018%2F07%2F31%2FSublime-Text-3-settings-for-Rails-developer%2F</url>
+    <content type="text"><![CDATA[Sublime Text 3 settings for Rails developer 純粹記錄一下自己使用的設定，以免哪天需要重裝⋯ 123456789101112131415&#123; "ignored_packages": [ "Vintage" ], "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme", "theme": "Material-Theme.sublime-theme", "font_size": 14, "highlight_line": true, "tab_size": 2, "translate_tabs_to_spaces": true, "trim_trailing_white_space_on_save": true, "ensure_newline_at_eof_on_save": true, "show_full_path": true&#125;]]></content>
+      <categories>
+        <category>Sublime Text 3</category>
+      </categories>
+      <tags>
+        <tag>Sublime Text</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Disable iTunes on macOS High Sierra]]></title>
     <url>%2F2018%2F07%2F24%2FDisable-iTunes-on-macOS-High-Sierra%2F</url>
     <content type="text"><![CDATA[Disable iTunes on macOS High Sierra 如何停用 iTunes Why do I want to disable iTunes? I don’t have an iPhone/iPad. And I listen to the music on Youtube. The most annoying thing is that iTunes often pops-up and I do not want it to interrupt my working. I searched on Google and realized lots people encounter the same problem due to using earphone on Macbook. So I decide to disable my iTunes. Step 1: Disable SIP on High Sierra Power off your device Power on your device while maintaining ⌘ and R pressed Once you reach the recovery system, select Terminal from the Utilities menu Type $ csrutil disable and then reboot If you want to enable SIP, type $ csrutil enable. Step 2: Removing the “executable” property on iTunes.app 1$ sudo chmod -x /Applications/iTunes.app If you want to enable iTunes, run the following: 1$ sudo chmod +x /Applications/iTunes.app Make sure you have disabled SIP, otherwise you will see operation not permitted. All Done! Reference Is it possible to uninstall or disable iTunes]]></content>

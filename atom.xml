@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hungkai.github.io/"/>
-  <updated>2018-07-24T07:57:12.172Z</updated>
+  <updated>2018-07-30T16:39:18.036Z</updated>
   <id>https://hungkai.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Sublime Text 3 settings for Rails developer</title>
+    <link href="https://hungkai.github.io/2018/07/31/Sublime-Text-3-settings-for-Rails-developer/"/>
+    <id>https://hungkai.github.io/2018/07/31/Sublime-Text-3-settings-for-Rails-developer/</id>
+    <published>2018-07-30T16:30:45.000Z</published>
+    <updated>2018-07-30T16:39:18.036Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="sublime-text-3-settings-for-rails-developer"><a class="markdownIt-Anchor" href="#sublime-text-3-settings-for-rails-developer"></a> Sublime Text 3 settings for Rails developer</h1><p>純粹記錄一下自己使用的設定，以免哪天需要重裝⋯</p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"ignored_packages"</span>:</span><br><span class="line">  [</span><br><span class="line">    <span class="string">"Vintage"</span></span><br><span class="line">  ],</span><br><span class="line">  <span class="attr">"color_scheme"</span>: <span class="string">"Packages/Material Theme/schemes/Material-Theme.tmTheme"</span>,</span><br><span class="line">  <span class="attr">"theme"</span>: <span class="string">"Material-Theme.sublime-theme"</span>,</span><br><span class="line">  <span class="attr">"font_size"</span>: <span class="number">14</span>,</span><br><span class="line">  <span class="attr">"highlight_line"</span>: <span class="literal">true</span>,</span><br><span class="line">  <span class="attr">"tab_size"</span>: <span class="number">2</span>,</span><br><span class="line">  <span class="attr">"translate_tabs_to_spaces"</span>: <span class="literal">true</span>,</span><br><span class="line">  <span class="attr">"trim_trailing_white_space_on_save"</span>: <span class="literal">true</span>,</span><br><span class="line">  <span class="attr">"ensure_newline_at_eof_on_save"</span>: <span class="literal">true</span>,</span><br><span class="line">  <span class="attr">"show_full_path"</span>: <span class="literal">true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;sublime-text-3-settings-for-rails-developer&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#sublime-text-3-settings-for-rails-developer&quot;&gt;&lt;/a&gt; Sublime Text 3 settings for Rails developer&lt;/h1&gt;
+&lt;p&gt;純粹記錄一下自己使用的設定，以免哪天需要重裝⋯&lt;/p&gt;
+&lt;figure class=&quot;highlight json&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;&quot;ignored_packages&quot;&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  [&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;Vintage&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  ],&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;&quot;color_scheme&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;Packages/Material Theme/schemes/Material-Theme.tmTheme&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;&quot;theme&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;Material-Theme.sublime-theme&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;&quot;font_size&quot;&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;14&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;&quot;highlight_line&quot;&lt;/span&gt;: &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;&quot;tab_size&quot;&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;&quot;translate_tabs_to_spaces&quot;&lt;/span&gt;: &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;&quot;trim_trailing_white_space_on_save&quot;&lt;/span&gt;: &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;&quot;ensure_newline_at_eof_on_save&quot;&lt;/span&gt;: &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;&quot;show_full_path&quot;&lt;/span&gt;: &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="Sublime Text 3" scheme="https://hungkai.github.io/categories/Sublime-Text-3/"/>
+    
+    
+      <category term="Sublime Text" scheme="https://hungkai.github.io/tags/Sublime-Text/"/>
+    
+  </entry>
   
   <entry>
     <title>Disable iTunes on macOS High Sierra</title>
