@@ -117,17 +117,21 @@
 
 
 
-  <meta name="description" content="學無止盡">
-<meta name="keywords" content="programmer">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hungkai&#39;s blog">
-<meta property="og:url" content="https://hungkai.github.io/tags/ror/index.html">
+  <meta name="description" content="Rails 101 (Rails 5版) 整理post程式碼  使用 before_action 修掉重複程式碼 修改 app/controllers/posts_controller.rb 123456789101112131415161718192021222324252627282930313233343536373839404142  before_action :authenticat">
+<meta name="keywords" content="Ruby on Rails,Rails 101">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Rails 101 (Rails 5版) 整理post程式碼">
+<meta property="og:url" content="https://hungkai.github.io/2018/08/03/Rails-101-refactor-posts/index.html">
 <meta property="og:site_name" content="Hungkai&#39;s blog">
-<meta property="og:description" content="學無止盡">
+<meta property="og:description" content="Rails 101 (Rails 5版) 整理post程式碼  使用 before_action 修掉重複程式碼 修改 app/controllers/posts_controller.rb 123456789101112131415161718192021222324252627282930313233343536373839404142  before_action :authenticat">
 <meta property="og:locale" content="zh-TW">
+<meta property="og:image" content="https://hungkai.github.io/2018/08/03/Rails-101-refactor-posts/not_member.png">
+<meta property="og:image" content="https://hungkai.github.io/2018/08/03/Rails-101-refactor-posts/post_recent_paginate.png">
+<meta property="og:updated_time" content="2018-08-03T05:10:27.610Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hungkai&#39;s blog">
-<meta name="twitter:description" content="學無止盡">
+<meta name="twitter:title" content="Rails 101 (Rails 5版) 整理post程式碼">
+<meta name="twitter:description" content="Rails 101 (Rails 5版) 整理post程式碼  使用 before_action 修掉重複程式碼 修改 app/controllers/posts_controller.rb 123456789101112131415161718192021222324252627282930313233343536373839404142  before_action :authenticat">
+<meta name="twitter:image" content="https://hungkai.github.io/2018/08/03/Rails-101-refactor-posts/not_member.png">
 
 
 
@@ -136,7 +140,7 @@
 
 
 
-  <link rel="canonical" href="https://hungkai.github.io/tags/ror/"/>
+  <link rel="canonical" href="https://hungkai.github.io/2018/08/03/Rails-101-refactor-posts/"/>
 
 
 
@@ -146,7 +150,7 @@
   };
 </script>
 
-  <title>標籤: ror | Hungkai's blog</title>
+  <title>Rails 101 (Rails 5版) 整理post程式碼 | Hungkai's blog</title>
   
 <script>
   window.fbAsyncInit = function() {
@@ -220,7 +224,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -269,7 +273,7 @@
         
         
           
-          <li class="menu-item menu-item-tags menu-item-active">
+          <li class="menu-item menu-item-tags">
     <a href="/tags/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />標籤</a>
   </li>
@@ -357,84 +361,265 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>ror<small>標籤</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
+
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://hungkai.github.io/2018/08/03/Rails-101-refactor-posts/">
 
-      <h1 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Hungkai Yang">
+      <meta itemprop="description" content="學無止盡">
+      <meta itemprop="image" content="/images/myAvatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hungkai's blog">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2018/07/23/Ruby-on-Rails-installfest-note/" itemprop="url">
-              
-                <span itemprop="name">Ruby on Rails installfest macOS 環境建置 安裝筆記</span>
-              
-            </a>
         
-      </h1>
+          <h1 class="post-title" itemprop="name headline">Rails 101 (Rails 5版) 整理post程式碼
+              
+            
+          </h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-07-23T22:33:07+08:00"
-              content="2018-07-23" >
-          07-23
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
 
-    </header>
-  </article>
+            
+            
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">發表於</span>
+              
+
+              
+                
+              
+
+              <time title="創建時間：2018-08-03 11:55:34 / 修改時間：13:10:27" itemprop="dateCreated datePublished" datetime="2018-08-03T11:55:34+08:00">2018-08-03</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分類於</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Rails-101/" itemprop="url" rel="index"><span itemprop="name">Rails 101</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/08/03/Rails-101-refactor-posts/#comments" itemprop="discussionUrl">
+                
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2018/08/03/Rails-101-refactor-posts/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon"
+            >
+            <i class="fa fa-eye"></i>
+             閱讀次數： 
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="rails-101-rails-5版-整理post程式碼"><a class="markdownIt-Anchor" href="#rails-101-rails-5版-整理post程式碼"></a> Rails 101 (Rails 5版) 整理post程式碼</h1>
+<h2 id="使用-before_action-修掉重複程式碼"><a class="markdownIt-Anchor" href="#使用-before_action-修掉重複程式碼"></a> 使用 before_action 修掉重複程式碼</h2>
+<p>修改 <code>app/controllers/posts_controller.rb</code></p>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line">  before_action <span class="symbol">:authenticate_user!</span>, <span class="symbol">only:</span> [<span class="symbol">:new</span>, <span class="symbol">:create</span>, <span class="symbol">:edit</span>, <span class="symbol">:update</span>, <span class="symbol">:destroy</span>]</span><br><span class="line">+  before_action <span class="symbol">:find_group</span>, <span class="symbol">only:</span> [<span class="symbol">:new</span>, <span class="symbol">:create</span>]</span><br><span class="line">+  before_action <span class="symbol">:find_post</span>, <span class="symbol">only:</span> [<span class="symbol">:edit</span>, <span class="symbol">:update</span>, <span class="symbol">:destroy</span>]</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">new</span></span></span><br><span class="line">-   <span class="variable">@group</span> = Group.find(params[<span class="symbol">:group_id</span>])</span><br><span class="line">    <span class="variable">@post</span> = Post.new</span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">create</span></span></span><br><span class="line">-   <span class="variable">@group</span> = Group.find(params[<span class="symbol">:group_id</span>])</span><br><span class="line">    <span class="variable">@post</span> = Post.new(post_params)</span><br><span class="line">    <span class="variable">@post</span>.group = <span class="variable">@group</span></span><br><span class="line">    <span class="variable">@post</span>.user = current_user</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">edit</span></span></span><br><span class="line">-   <span class="variable">@group</span> = Group.find(params[<span class="symbol">:group_id</span>])</span><br><span class="line">-   <span class="variable">@post</span> = Post.find(params[<span class="symbol">:id</span>])</span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">update</span></span></span><br><span class="line">-   <span class="variable">@group</span> = Group.find(params[<span class="symbol">:group_id</span>])</span><br><span class="line">-   <span class="variable">@post</span> = Post.find(params[<span class="symbol">:id</span>])</span><br><span class="line">  ...</span><br><span class="line">  </span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">destroy</span></span></span><br><span class="line">-   <span class="variable">@group</span> = Group.find(params[<span class="symbol">:group_id</span>])</span><br><span class="line">-   <span class="variable">@post</span> = Post.find(params[<span class="symbol">:id</span>])</span><br><span class="line">   <span class="variable">@post</span>.destroy</span><br><span class="line">    redirect_to account_posts_path, <span class="symbol">alert:</span> <span class="string">"Post deleted"</span></span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"></span><br><span class="line">  private</span><br><span class="line"></span><br><span class="line">+  <span class="function"><span class="keyword">def</span> <span class="title">find_group</span></span></span><br><span class="line">+    <span class="variable">@group</span> = Group.find(params[<span class="symbol">:group_id</span>])</span><br><span class="line">+  <span class="keyword">end</span></span><br><span class="line">+  </span><br><span class="line">+  <span class="function"><span class="keyword">def</span> <span class="title">find_post</span></span></span><br><span class="line">+    <span class="variable">@group</span> = Group.find(params[<span class="symbol">:group_id</span>])</span><br><span class="line">+    <span class="variable">@post</span> = Post.find(params[<span class="symbol">:id</span>])</span><br><span class="line">+  <span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+<h2 id="發文時驗證使用者是否為群組成員"><a class="markdownIt-Anchor" href="#發文時驗證使用者是否為群組成員"></a> 發文時驗證使用者是否為群組成員</h2>
+<p>修改 <code>app/controllers/posts_controller.rb</code></p>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">  before_action <span class="symbol">:find_group</span>, <span class="symbol">only:</span> [<span class="symbol">:new</span>, <span class="symbol">:create</span>]</span><br><span class="line">  before_action <span class="symbol">:find_post</span>, <span class="symbol">only:</span> [<span class="symbol">:edit</span>, <span class="symbol">:update</span>, <span class="symbol">:destroy</span>]</span><br><span class="line">+ before_action <span class="symbol">:member_required</span>, <span class="symbol">only:</span> [<span class="symbol">:new</span>, <span class="symbol">:create</span>]</span><br><span class="line"></span><br><span class="line">  private</span><br><span class="line"></span><br><span class="line">+  <span class="function"><span class="keyword">def</span> <span class="title">member_required</span></span></span><br><span class="line">+    @group = Group.find(params[<span class="symbol">:group_id</span>])</span><br><span class="line">+    <span class="keyword">if</span> !current_user.is_member_of?(@group)</span><br><span class="line">+      redirect_to group_path(@group)</span><br><span class="line">+      flash[<span class="symbol">:warning</span>] = <span class="string">"你不是這個討論版的成員，不能發文！"</span></span><br><span class="line">+    <span class="keyword">end</span></span><br><span class="line">+  <span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+<p><strong>成果</strong></p>
+<img src="/2018/08/03/Rails-101-refactor-posts/not_member.png">
+<h2 id="我發表過的文章分頁功能-新文章排序在前"><a class="markdownIt-Anchor" href="#我發表過的文章分頁功能-新文章排序在前"></a> 我發表過的文章分頁功能 &amp; 新文章排序在前</h2>
+<p>修改 <code>app/controllers/account/posts_controller.rb</code></p>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">   <span class="function"><span class="keyword">def</span> <span class="title">index</span></span></span><br><span class="line">-    <span class="variable">@posts</span> = current_user.posts</span><br><span class="line">+    <span class="variable">@posts</span> = current_user.posts.recent.paginate(<span class="symbol">:page</span> =&gt; params[<span class="symbol">:page</span>], <span class="symbol">:per_page</span> =&gt; <span class="number">5</span>)</span><br><span class="line">   <span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+<p>修改 <code>app/views/account/posts/index.html.erb</code></p>
+<figure class="highlight erb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml">  <span class="tag">&lt;/<span class="name">table</span>&gt;</span></span></span><br><span class="line"><span class="xml">+   <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"text-center"</span>&gt;</span></span></span><br><span class="line"><span class="xml">+     <span class="tag">&lt;<span class="name">%=</span></span></span><span class="ruby"> will_paginate @posts </span><span class="xml"><span class="tag">%&gt;</span></span></span><br><span class="line"><span class="xml">+   <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+<p><strong>成果</strong></p>
+<img src="/2018/08/03/Rails-101-refactor-posts/post_recent_paginate.png">
+<h2 id="將-postnew-edit-重複表單抽出成共用檔案"><a class="markdownIt-Anchor" href="#將-postnew-edit-重複表單抽出成共用檔案"></a> 將 post/new &amp; edit 重複表單抽出成共用檔案</h2>
+<p>新增 <code>app/views/posts/_form.html.erb</code></p>
+<figure class="highlight erb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">%=</span></span></span><span class="ruby"> simple_form_for [@group,@post] <span class="keyword">do</span> <span class="params">|f|</span> </span><span class="xml"><span class="tag">%&gt;</span></span></span><br><span class="line"><span class="xml">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"form-group"</span>&gt;</span></span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;<span class="name">%=</span></span></span><span class="ruby"> f.input <span class="symbol">:content</span>, <span class="symbol">input_html:</span> &#123; <span class="class"><span class="keyword">class</span>: "<span class="title">form</span>-<span class="title">control</span>"&#125; </span></span><span class="xml"><span class="tag">%&gt;</span></span></span><br><span class="line"><span class="xml">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"form-actions"</span>&gt;</span></span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;<span class="name">%=</span></span></span><span class="ruby"> f.submit <span class="string">"Submit"</span>, <span class="symbol">disable_with:</span> <span class="string">"Submiting..."</span>, <span class="class"><span class="keyword">class</span>: "<span class="title">btn</span> <span class="title">btn</span>-<span class="title">primary</span>"</span></span><span class="xml"><span class="tag">%&gt;</span></span></span><br><span class="line"><span class="xml">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> <span class="keyword">end</span> </span><span class="xml"><span class="tag">%&gt;</span></span></span><br></pre></td></tr></table></figure>
+<p>將 <code>app/views/posts/new.html.erb</code> &amp; <code>app/views/posts/edit.html.erb</code> 兩個檔案內重複程式碼修改為</p>
+<figure class="highlight mel"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;%= <span class="keyword">render</span> <span class="string">"form"</span> %&gt;</span><br></pre></td></tr></table></figure>
+<h4 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h4>
+<p><a href="http://rails101s.logdown.com/posts/247888-20-6-0-real-simple-background-mechanisms" target="_blank" rel="noopener">[ 2.0 ] 6 - 0. 實做簡單的後台機制 </a></p>
+<p><a href="https://courses.growthschool.com/courses/rails-101/lectures/1639206" target="_blank" rel="noopener">Rails 101 (Rails 5版) 額外作業</a></p>
 
       
     </div>
 
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Ruby-on-Rails/" rel="tag"><i class="fa fa-tag"></i> Ruby on Rails</a>
+          
+            <a href="/tags/Rails-101/" rel="tag"><i class="fa fa-tag"></i> Rails 101</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+
+        
+          
+          <div class="social-like">
+            
+
+            
+              <div class="fb_like">
+                <div class="fb-like" data-layout="button_count" data-share="true"></div>
+              </div>
+            
+          </div>
+        
+
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/08/03/Rails-101-delete-group-s-posts-when-group-deleted/" rel="next" title="Rails 101 (Rails 5版) 刪除群組時一併刪除群組內的文章 deleted">
+                <i class="fa fa-chevron-left"></i> Rails 101 (Rails 5版) 刪除群組時一併刪除群組內的文章 deleted
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
+
+  </div>
 
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -455,8 +640,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目錄
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            本站概要
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -577,6 +771,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#rails-101-rails-5版-整理post程式碼"><span class="nav-number">1.</span> <span class="nav-text"> Rails 101 (Rails 5版) 整理post程式碼</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#使用-before_action-修掉重複程式碼"><span class="nav-number">1.1.</span> <span class="nav-text"> 使用 before_action 修掉重複程式碼</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#發文時驗證使用者是否為群組成員"><span class="nav-number">1.2.</span> <span class="nav-text"> 發文時驗證使用者是否為群組成員</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#我發表過的文章分頁功能-新文章排序在前"><span class="nav-number">1.3.</span> <span class="nav-text"> 我發表過的文章分頁功能 &amp; 新文章排序在前</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#將-postnew-edit-重複表單抽出成共用檔案"><span class="nav-number">1.4.</span> <span class="nav-text"> 將 post/new &amp; edit 重複表單抽出成共用檔案</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#reference"><span class="nav-number">1.4.0.1.</span> <span class="nav-text"> Reference</span></a></li></ol></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -739,6 +949,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.3.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.3.0"></script>
+
+
 
   
 
@@ -753,6 +967,23 @@
     <script id="dsq-count-scr" src="https://hungkai.disqus.com/count.js" async></script>
   
 
+  
+    <script type="text/javascript">
+      var disqus_config = function () {
+        this.page.url = 'https://hungkai.github.io/2018/08/03/Rails-101-refactor-posts/';
+        this.page.identifier = '2018/08/03/Rails-101-refactor-posts/';
+        this.page.title = 'Rails 101 (Rails 5版) 整理post程式碼';
+        };
+      function loadComments () {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://hungkai.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      }
+      
+        loadComments();
+      
+    </script>
   
 
 
